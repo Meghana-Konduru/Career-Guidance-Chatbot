@@ -1,0 +1,22 @@
+Programming Career Paths
+
+Job Roles:
+- Frontend Developer
+- Backend Developer
+- Full Stack Developer
+- DevOps Engineer
+- Mobile Developer
+- Data Scientist
+
+Industries:
+- Tech Companies
+- Finance & Banking
+- Healthcare
+- E-commerce
+- Gaming
+- Startups vs Enterprise
+
+Salary Ranges:
+- Junior: $50k-$80k
+- Mid-level: $80k-$120k
+- Senior: $120k-$180k+

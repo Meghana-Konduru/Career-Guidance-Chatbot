@@ -1,0 +1,84 @@
+body {
+  background: #0d1117;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #00d8ff;
+}
+
+.chat-box {
+  background: #161b22;
+  padding: 15px;
+  border-radius: 10px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.bubble {
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+.bubble.user {
+  background: #00d8ff;
+  color: black;
+  margin-left: auto;
+  border-bottom-right-radius: 3px;
+}
+
+.bubble.bot {
+  background: #30363d;
+  color: white;
+  margin-right: auto;
+  border-bottom-left-radius: 3px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #21262d;
+  color: white;
+}
+
+.input-area button {
+  background: #00d8ff;
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: 2px solid #00d8ff;
+}

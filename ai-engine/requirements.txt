@@ -1,0 +1,10 @@
+flask
+flask-cors
+langchain==1.0.5
+langchain-community
+langchain-openai
+faiss-cpu
+sentence-transformers
+pandas
+numpy
+tqdm
